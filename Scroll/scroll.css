@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', serif;
+}
+
+body{
+    /* background-color: rgb(129, 168, 129); */
+    padding: 5rem 10rem;
+}
+
+.container{
+    min-width: 20rem;
+    width: 70vw;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background-color: greenyellow; */
+}
+
+h1{
+ font-size: 3rem;
+ padding: 1.2rem;
+ color:mediumvioletred;
+ border-radius: 1rem;
+ background-color: whitesmoke;
+ box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+ text-transform:uppercase;
+}
+
+.post{
+    background-color: whitesmoke;
+    margin-top: 5rem;
+    padding: 2rem 5rem;
+    border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.id{
+  width: 4rem;
+  height: 4rem;
+  background-color: greenyellow;
+  color: green;
+  display: grid;
+  place-items: center;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.title{
+   font-size: 2.5rem;
+   margin:2rem 0 1rem 0;
+   text-transform: capitalize;
+   color: green;
+}
+.info{
+   font-size: 1.7rem;
+   color:hotpink;
+}
