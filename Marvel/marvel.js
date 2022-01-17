@@ -6,6 +6,8 @@ const getData=async()=>{
       var query=document.getElementById("searchinput").value;
       var marvel=document.getElementById("marvel")
 
+      marvel.innerHTML=null;
+
       var ts=Date.now()
       var hash = md5(ts+privkey+apikey);
       
